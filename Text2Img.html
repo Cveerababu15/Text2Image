@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="imagegen.css">
+    <title>Text-To_Image</title>
+</head>
+<body>
+<section class="image-generator">
+<div class="content">
+    <h1>AI image genrator</h1>
+    <p>Convert Your Text Into Image</p>
+    <form action="#" class="generate-form">
+        <input type="text" class="prompt-input" placeholder="Enter a prompt" required>
+        <div class="controls">
+            <select name="" class="img-quantity">
+                <option value="1">1 image</option>
+                <option value="2">2 images</option>
+                <option value="3">3 images</option>
+                <option value="4" selected>4 images</option>
+            </select>
+            <button type="submit" class="generate-btn">Generate</button>
+        </div>
+    </form>
+</div>
+</section>
+<section class="img-gallery">
+
+
+    <div class="img-card">
+
+        <img src="img-1.jpg" alt="img">
+        <a href="#" class="downloade-btn">
+            <img src="download.svg" alt="downloade icon">
+        </a>
+    </div>
+    <div class="img-card ">
+
+        <img src="img-2.jpg" alt="img">
+        <a href="#" class="downloade-btn">
+            <img src="download.svg" alt="downloade icon">
+        </a>
+    </div>
+    <div class="img-card">
+
+        <img src="img-3.jpg" alt="img">
+        <a href="#" class="downloade-btn">
+            <img src="download.svg" alt="downloade icon">
+        </a>
+    </div>
+    <div class="img-card">
+
+        <img src="img-4.jpg" alt="img">
+        <a href="#" class="downloade-btn">
+            <img src="download.svg" alt="downloade icon">
+        </a>
+    </div>
+</section>
+<script src="imggen.js" defer></script>
+</body>
+</html>
